@@ -1,3 +1,18 @@
+# BEGIN IGNORE ALL FILES WITHOUT EXTENSIONS
+# Ignore all files
+*
+
+# Re-include all directories so Git can traverse them
+!*/
+
+# Re-include files with an extension (e.g., .txt, .md, .php, etc.)
+!*.* 
+
+# Optionally, explicitly re-include files you want to track that genuinely have no extension (e.g., a 'Makefile' or 'LICENSE' file)
+!Makefile
+!LICENSE
+# END IGNORE ALL FILES WITHOUT EXTENSIONS
+
 # Prerequisites
 *.d
 
